@@ -1,3 +1,9 @@
+/*Author: Sandaruwan Gunasinghe
+ * Locality Sensitive Hashing: Shingle
+ * Create Shingles and Map them into a Hash Table
+ * 11/13/2013
+ */
+
 import java.util.ArrayList;
 import java.util.Hashtable;
 
@@ -5,6 +11,7 @@ import java.util.Hashtable;
 public class shingle{
 	
   static Hashtable<Integer, String> hash_table=new Hashtable<Integer, String>(); //Initializing the Hashtable
+  //static int buckets=101;
 
   public String shingles(String line,int k) { //Takes the string and the value of k in k-shingles as parameters
 	  
