@@ -11,7 +11,6 @@ import java.util.Hashtable;
 public class shingle{
 	
   static Hashtable<Integer, String> hash_table=new Hashtable<Integer, String>(); //Initializing the Hashtable
-  //static int buckets=101;
 
   public String shingles(String line,int k) { //Takes the string and the value of k in k-shingles as parameters
 	  
